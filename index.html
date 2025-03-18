@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form and Contact Table</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List with Roman Numerals</h2>
+        <ol type="I">
+            <li>Introduction</li>
+            <li>Objectives</li>
+            <li>Implementation</li>
+            <li>Conclusion</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>External Image from Pexels</h2>
+        <img src="https://images.pexels.com/photos/123123/pexels-photo-123123.jpg" alt="Beautiful scenery" width="600">
+    </section>
+
+    <!-- Contact Table -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>1234 Elm Street</td>
+                    <td>(123) 456-7890</td>
+                    <td>john.doe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>5678 Oak Avenue</td>
+                    <td>(987) 654-3210</td>
+                    <td>jane.smith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Robert Brown</td>
+                    <td>4321 Pine Road</td>
+                    <td>(555) 123-4567</td>
+                    <td>robert.brown@example.com</td>
+                </tr>
+                <tr>
+                    <td>Emily White</td>
+                    <td>8765 Maple Lane</td>
+                    <td>(666) 987-6543</td>
+                    <td>emily.white@example.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Black</td>
+                    <td>1234 Cedar Blvd</td>
+                    <td>(444) 555-1234</td>
+                    <td>michael.black@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST" novalidate>
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select a country</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+                <option value="india">India</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="travelling" name="interests" value="travelling">
+            <label for="travelling">Travelling</label><br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
